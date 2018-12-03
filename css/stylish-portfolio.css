@@ -375,3 +375,105 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+
+
+
+.skillBorder h4{
+border: 1px solid white;
+border-radius: 5px;
+margin: auto !important;
+width: 100%;
+/* padding: 10px; */
+
+}
+.skillTitle{
+text-align: center !important;
+padding: 20px;
+width: 270px !important;
+/* height: 100px; */
+margin: auto 100px !important;
+}
+
+.col-lg-6{
+  margin: 10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.img-fluid{
+  margin-left:auto !important;
+  margin-right:auto !important;
+
+}
+
+.imageContainer{
+max-width: 800px;
+margin: 0px auto;
+display:flex;
+
+
+}
+.imageContainer a{
+
+cursor: pointer;
+
+}
+
+hr{
+  margin-top:-4px;
+  border-top: 1px solid grey;
+
+}
+
+.imageContainerInfo{
+  max-width: 800px;
+  margin:auto;
+  /* display: flex; */
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  margin-top:-10px;
+  /* background-color:yellow; */
+
+}
+.infoBox{
+max-width: 800px;
+padding:  10px 20px 30px 20px;
+font-size: 11pt;
+margin-top:0px;
+/* display:inline; */
+
+}
+
+.demoFont a {
+  font-size: 13pt;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+    /* background-color: yellow; */
+    cursor: pointer;
+    color: #63b11d;
+    text-decoration: none;
+
+}
+.projectName{
+  color:#1D809F;
+}
+
+#title{
+  margin-top: 0px;
+  /* background-color:yellow; */
+
+}
+/* .btn-dark{
+
+} */
+#buttonGraphic{
+  background-color:#f2b703 !important;
+  border-color:#f2b703 !important;
+  color:#1D809F !important;
+}

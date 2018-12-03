@@ -42,13 +42,13 @@
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Skills</a>
+        <a class="js-scroll-trigger" href="#skills">Skills</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Design Portfolio</a>
+        <a class="js-scroll-trigger" href="#design">Design Portfolio</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contact</a>
@@ -59,11 +59,11 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Leila Haghdoost</h1>
+      <a class="name"href="#about"><h1 class="mb-1">Leila Haghdoost</h1>
       <h3 class="mb-5">
-        <em>Front End Developer with Graphic Design background</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      { Front End Developer with Graphic Design background }
+    </h3></a>
+      <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" id="aboutmeText" href="#about">About me</a> -->
     </div>
     <div class="overlay"></div>
   </header>
@@ -73,7 +73,10 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>About me</h2>
+          <!-- <h2>About me</h2> -->
+          <div>
+            <img src="img/background.jpg" alt="Avatar" class="profilePhoto">
+          </div>
           <p class="lead mb-5" id="textfirstpage">Hi! I'm Leila,<br>
             I'm full-stack web developer with interest in front end development and previous experience in Graphic design.<br>
             I recently became fascinated by the digital world and how I could actually bring my designs to life.I joined General Assembly's full time Web Development Immersive boot camp to learn the skills which is needed for being a full stack
@@ -84,7 +87,7 @@
           </p>
 
           <!-- <a href="">Resume</a>! -->
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Resume</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1YKvvjtn0u-ls6pC7WjybnxNp7w9GIak_/view?usp=sharing">Resume</a>
         </div>
       </div>
     </div>
@@ -93,7 +96,7 @@
 
   <!-- Services -->
 
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="skills">
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">What I've learnt</h3>
@@ -153,22 +156,7 @@
   </section>
 
 
-
-  <!-- Callout -->
-  <!-- <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-      </div>
-    </section> -->
-
   <!-- Portfolio -->
-
-
-
-
 
   <section class="content-section" id="portfolio">
     <div class="container">
@@ -247,7 +235,8 @@
                 <hr>
                 <a href="https://github.com/Leila-Haghdoost/tic-tac-toe" class="demoFont" id="title"><h6>| GITHUB </button>
                 </a> <a href="https://leila-haghdoost.github.io/tic-tac-toe/" class="demoFont">| LIVE DEMO |</h6></a>
-            <p>This is a simple Tic-tac-toe game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. In this
+            <p> My first project of my bootcamp, a simple tic tac toe game which was my first steps to web development world.<br>
+              This is the game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. In this
               game "O" is AI player and "X" is human player.</p>
               <h5 class="projectName">Technologies used:</h5>
               <hr>
@@ -260,7 +249,7 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
+  <section class="content-section bg-primary text-white" id="design">
     <div class="container text-center">
       <h2 class="mb-4">My Graphic Design Portfolio</h2>
       <a href="http://lilyportfolio.com/" class="btn btn-xl btn-dark" id="buttonGraphic">Look at Me!</a>
@@ -269,9 +258,14 @@
 
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="contact">
     <div class="container">
       <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://haghdoost62@gmail.com">
+            <i class="icon-envelope"></i>
+          </a>
+        </li>
         <li class="list-inline-item">
           <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/leila-haghdoost/">
             <i class="icon-social-linkedin"></i>
@@ -288,8 +282,7 @@
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Leila Haghdoost Website 2018</p>
-    </div>
+       <!-- <h6 class="text-muted small mb-0">Copyright &copy; Leila Haghdoost Website 2018</h6> -->
   </footer>
 
   <!-- Scroll to Top Button-->
@@ -310,3 +303,31 @@
 </body>
 
 </html>
+
+
+<!--
+  <footer class="footerContainer" id="contact">
+    <div class="socialContainer">
+      <ul class="socialContainerUL">
+        <li class="socialMediaIcon">
+          <a href="https://www.linkedin.com/in/leila-haghdoost/" class="icon">
+            <h5 class="icon-social-linkedin"><h5>
+          </a>
+        </li>
+        <li class="socialMediaIcon">
+          <a href="https://twitter.com/LHaghdoost" class="icon">
+            <h5 class="icon-social-twitter"><h5>
+          </a>
+        </li>
+        <li class="socialMediaIcon">
+          <a href="https://github.com/Leila-Haghdoost" class="icon">
+            <h5 class="icon-social-github"></h5>
+          </a>
+        </li>
+        <li class="socialMediaIcon">
+          <a href="https://haghdoost62@gmail.com" class="icon">
+            <h5 class="icon icon-envelope"></h5>
+          </a>
+        </li>
+        </div>
+        <br> -->

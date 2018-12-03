@@ -389,10 +389,10 @@ width: 100%;
 }
 .skillTitle{
 text-align: center !important;
-padding: 20px;
+padding: 30px;
 width: 270px !important;
 /* height: 100px; */
-margin: auto 100px !important;
+/* margin: auto 200px !important; */
 }
 
 .col-lg-6{
@@ -469,11 +469,46 @@ a:hover {
   /* background-color:yellow; */
 
 }
-/* .btn-dark{
 
-} */
+.btn-dark:hover {
+  background-color: #1D809F;
+  color: white;
+  border-color:#1D809F;
+}
+
+
 #buttonGraphic{
   background-color:#f2b703 !important;
   border-color:#f2b703 !important;
   color:#1D809F !important;
+}
+#buttonGraphic:hover{
+  background-color:#fff !important;
+  border-color:#fff !important;
+  color:#1D809F !important;
+}
+
+.profilePhoto{
+vertical-align: middle;
+width: 180px;
+height: 180px;
+border-radius: 50%;
+margin: 0px auto 20px auto;
+}
+
+.mb-5{
+  font-weight:light;
+  font-size: 19pt;
+}
+
+.aboutmeText{
+margin-bottom: 0px !important;
+}
+
+.mr-3 {
+    margin-right: 0rem!important;
+}
+
+.name{
+  color:black;
 }
